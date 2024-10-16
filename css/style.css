@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    background-image: url("https://miro.medium.com/v2/resize:fit:640/1*xUVhgq_c1eOAJCIEzjI_iw.jpeg"); /* Corrected the path */
+    background-size: cover; /* Ensures the background image covers the entire page */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    font-family: 'Gill Sans MT';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the body takes up the entire viewport height */
+    background-color: #fff;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(175, 0, 239); /* Transparent background to make content readable */
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 90%;
+    border-radius: 10px;
+}
+.container p{
+    color:white;
+}
+h1, h2 {
+    color: #fcfcfc;
+}
+
+p {
+    color: #666;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+.logout-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #00fff7;
+    padding: 10px 20px;
+}
+
+.logout-btn:hover {
+    background-color: #c82333;
+}
+
+/* Form Styles */
+form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="number"], 
+input[type="password"], 
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for web series images and names */
+.webseries-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.webseries-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.webseries-item img {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.webseries-item p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #ffffff;
+}
