@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Register</h1>
+        </header>
+        <form action="loggedin.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label>Favorite Genres:</label><br>
+            <input type="checkbox" id="horror" name="genres[]" value="horror">
+            <label for="horror">Horror</label><br>
+
+            <input type="checkbox" id="comedy" name="genres[]" value="comedy">
+            <label for="comedy">Comedy</label><br>
+
+            <input type="checkbox" id="romance" name="genres[]" value="romance">
+            <label for="romance">Romance</label><br><br>
+
+            <button type="submit" class="btn">Register</button>
+        </form>
+        <a href="signin.html" class="btn">Sign In</a>
+    </div>
+</body>
+</html>
